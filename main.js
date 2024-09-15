@@ -19,6 +19,8 @@ $('.client_imgs a').click(function(event){
 $(document).ready(function($){
     $('.counter').counterUp({
         delay: 10,
-        time: 1000
+        time: 3000
     });
-  });
+});
+
+AOS.init();

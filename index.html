@@ -13,6 +13,9 @@
 
     <!-- fontawsome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos animation cdn  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -73,7 +76,9 @@
   <div class="container-lg">
     <div class="row p-4">
       <div class="col-md-6">
-        <div class="Home_heading mt-5">
+        <div class="Home_heading mt-5" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" data-aos-duration="1000">
           <h1>Diversified Services. <br> Unvarying Quality.</h1>
           <p>We designed 100+ commercial & residential projects in UAS & across the globe. Providing Design & 3D Support to Architectural Firms Globally. Award-Winning Company. <span class="fw-bold">17+ Years</span> Of Experience.</p>
           
@@ -87,7 +92,10 @@
       </div>
       <div class="col-md-6">
         <div class="home_card">
-          <div class="card_box crd_1 d-flex">
+          <div class="card_box crd_1 d-flex" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="600">
             <img src="imgs/image (1).png" class="img-fluid" alt="">
             <div class="Home_cardHead ms-2">
               <h6>Daniel Johns</h6>
@@ -99,7 +107,10 @@
             </div>
           </div>
 
-          <div class="card_box crd_2 d-flex mt-3">
+          <div class="card_box crd_2 d-flex mt-3" data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="600"
+          data-aos-duration="1000">
             <img src="imgs/image (2).png" class="img-fluid" alt="">
             <div class="Home_cardHead ms-2">
               <h6>Martha May</h6>
@@ -124,12 +135,15 @@
 <section id="achivement" class="mt-5 p-4">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 p-4 achive_head">
+      <div class="col-md-5 p-4 achive_head" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="2000" data-aos-offset="300">
         <h1>Over a Decade of Achievements</h1>
         <p>With our super powers we have reached this.</p>
       </div>
       <div class="col-md-3 col-sm-6">
-        <div class="achv_icons achiv_1">
+        <div class="achv_icons achiv_1" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
           <img src="imgs/ach-1.png" class="img-fluid mt-2" alt="">
           <div class="achv_head ms-1">
             <h3 class="counter">10,000</h3>
@@ -137,7 +151,9 @@
           </div>
         </div>
 
-        <div class="achv_icons mt-2 achiv_1">
+        <div class="achv_icons mt-2 achiv_1" data-aos="fade-right"
+        data-aos-offset="250"
+        data-aos-easing="ease-in-sine">
           <img src="imgs/ach-3.png" class="img-fluid mt-2" alt="">
           <div class="achv_head ms-1">
             <h3 class="counter">500</h3>
@@ -146,7 +162,9 @@
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
-        <div class="achv_icons">
+        <div class="achv_icons" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <img src="imgs/ach-2.png" class="img-fluid mt-2" alt="">
           <div class="achv_head ms-1">
             <h3 class="counter">2 </h3><span>Million</span>
@@ -154,7 +172,9 @@
           </div>
         </div>
 
-        <div class="achv_icons mt-2">
+        <div class="achv_icons mt-2" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
           <img src="imgs/ach-4.png" class="img-fluid mt-2" alt="">
           <div class="achv_head ms-1">
             <h4 class="counter">140</h4>
@@ -171,10 +191,14 @@
 <!-- company section  -->
   <section id="company" class="mt-5">
     <div class="container">
-      <div class="company_head text-center">
+      <div class="company_head text-center" data-aos="zoom-in" data-aos-duration="1000">
         <h1>OUR TRUSTED CLIENTS</h1>
       </div>
-      <div class="compy_img">
+      <div class="compy_img" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <a href="#"><img src="imgs/com 1.png" alt=""></a>
         <a href="#"><img src="imgs/com 2.png" alt=""></a>
         <a href="#"><img src="imgs/com 2.png" alt=""></a>
@@ -191,7 +215,8 @@
     <div class="container">
       <div class="row gy-2">
         <div class="col-md-4">
-          <div class="card compy_card">
+          <div class="card compy_card" data-aos="fade-up"
+          data-aos-duration="3000">
             <img src="imgs/card 1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Canadian Construction Branches.</h5>
@@ -201,7 +226,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card compy_card">
+          <div class="card compy_card" data-aos="fade-up"
+          data-aos-duration="3000" data-aos-offset="300">
             <img src="imgs/card 2.png" class="card-img-top " alt="...">
             <div class="card-body">
               <h5 class="card-title">Australian Construction Branches.</h5>
@@ -211,7 +237,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card compy_card">
+          <div class="card compy_card" data-aos="fade-up"
+          data-aos-duration="3000" data-aos-offset="350">
             <img src="imgs/card 3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Brazilian Construction Branches.</h5>
@@ -228,11 +255,14 @@
 <!-- builder section -->
  <section id="builder" class="mt-5">
   <div class="container">
-    <div class="builder_head text-center">
+    <div class="builder_head text-center" data-aos="zoom-in" data-aos-duration="2000">
       <h1>Let us help you build.</h1>
       <p class="mt-4">Over 17 years of experience in creating spaces that positively impact people’s lives</p>
     </div>
-    <div class="builder_img mt-5">
+    <div class="builder_img mt-5" data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    data-aos-offset="200" data-aos-duration="1000">
       <img src="imgs/builders.jpg" class="img-fluid">
     </div>
   </div>
@@ -242,11 +272,13 @@
 <!-- client Commment section  -->
  <section id="Client_comments">
   <div class="container">
-    <div class="Clients_head text-center p-4">
+    <div class="Clients_head text-center p-4" data-aos="zoom-in" data-aos-offset="300" data-aos-duration="1000">
       <h1>Few Words From Our Clients</h1>
     </div>
     <div class="Client_commentBox">
-      <div id="tab-one-Comment-card" class="card_comment active_card">
+      <div id="tab-one-Comment-card" class="card_comment active_card" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
         <div class="card-body">
           <h5 class="card-head">Jane Cooper</h5>
           <h6 class="card-title">CEO, ABC Corporation</h6>
@@ -254,7 +286,7 @@
         </div>
       </div>
 
-      <div id="tab-two-Comment-card" class="card_comment">
+      <div id="tab-two-Comment-card" class="card_comment" >
         <div class="card-body">
           <h5 class="card-head">lia Suzi</h5>
           <h6 class="card-title">CEO, GUI Corporation</h6>
@@ -287,7 +319,8 @@
       </div>
 
 
-      <div class="client_imgs">
+      <div class="client_imgs" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
         <a href="#tab_one" id="tab-one" class="active"><img src="imgs/client 1.png" class="img-fluid" alt=""></a>
         <a href="#tab_two" id="tab-two"><img src="imgs/client 2.png" class="img-fluid" alt=""></a>
         <a href="#tab_three" id="tab-three"><img src="imgs/client 3.png" class="img-fluid" alt=""></a>
@@ -304,8 +337,8 @@
  <section id="offers" class="mt-5 p-5">
   <div class="container">
     <div class="offer_img">
-     <h1>Get a Free Quote Now!</h1>
-     <form class="d-flex search_oop" role="search">
+     <h1 data-aos="flip-up"  data-aos-duration="900"="">Get a Free Quote Now!</h1>
+     <form class="d-flex search_oop" role="search" data-aos="zoom-in-up" data-aos-duration="1000">
       <input class="form-control me-2" type="search" placeholder="Your work email address" aria-label="Search">
       <button class="btn btn-light" type="submit">Join the waitlist</button>
     </form>
@@ -319,7 +352,9 @@
   <footer id="about">
     <div class="container p-5">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-7" data-aos="fade-right"
+        data-aos-offset="3"
+        data-aos-easing="ease-in-sine">
           <div class="logo d-flex">
             <img src="imgs/logo.png" alt="">
             <div class="name">
@@ -344,7 +379,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 footer_button">
+        <div class="col-md-5 footer_button" data-aos="fade-left"
+        data-aos-offset="0"
+        data-aos-easing="ease-in-sine">
           <div class="footer_btn">
             <h4 class="">Get the App</h4>
             <a href="">
@@ -370,7 +407,9 @@
     <!-- counter js cdn  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="jquery.counterup.min.js"></script>
-    
+    <!-- aos animation js cdn  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- javascript main file  -->
     <script src="main.js"></script>
    
     
