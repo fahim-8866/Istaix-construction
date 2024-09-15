@@ -37,7 +37,9 @@ body{
 ._3icon_{
     background-color: #263640;
 }
-
+.active_nav{
+    color: white;
+}
 /* navbar End  */
 
 
@@ -199,6 +201,25 @@ span.tilte::before
     margin-top: 50px;
     margin-left: 140px;
 }
+.active img{
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.card_comment{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+}
+.card_comment{
+    display: none;
+    
+}
+.active_card{
+    display: block;
+}
 /* client comment box  */
 
 
@@ -275,7 +296,7 @@ footer{
 }
 /* footer part  */
 
-@media (min-width: 1440px) and (max-width: 1880px){
+@media (min-width: 1441px) and (max-width: 1880px){
     .client_imgs img{
         margin: 50px;
         margin-right: 110px;
@@ -477,6 +498,17 @@ footer{
     .footer_btn a{
         display: inline;
     }
+    footer{
+        height: 60vh;
+    }
+    .card_comment{
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px;
+        padding: 10px;
+        width: 400px;
+        margin: auto;
+        background-color: white;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -525,7 +557,7 @@ footer{
     }
     #Client_comments{
         width: 100%;
-        height: 620px;
+        height: 640px;
     }
     .offer_img{
         display: none;
@@ -541,5 +573,16 @@ footer{
     }
     .footer_btn a{
         display: inline;
+    }
+    footer{
+        height: 60vh;
+    }
+    .card_comment{
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px;
+        padding: 10px;
+        width: 300px;
+        margin: auto;
+        background-color: white;
     }
 }
