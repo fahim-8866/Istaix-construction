@@ -49,6 +49,7 @@ body{
 section#Home{
     background-image: url("background.png");
     height: 500px; 
+    width: 100%;
     background-repeat: no-repeat;
     background-position:right;
     background-color: #E4E3E8;
@@ -187,6 +188,7 @@ span.tilte::before
     width: 100%;
     height: 520px;
     position: relative;
+   
 }
 .Client_commentBox .card{
     margin: auto;
@@ -231,6 +233,7 @@ span.tilte::before
     /* background-position: center; */
     background-repeat: no-repeat;
     /* background-size: cover; */
+   
     height: 35vh;
     width: 100%;
 }
@@ -258,6 +261,7 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     width: 100%;
     height: 35vh;
 }
@@ -308,6 +312,7 @@ footer{
     section#Home{
         background-image: url("background.png");
         height: 600px;
+        width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
         background-position:right;
@@ -338,6 +343,15 @@ footer{
     height: 27vh;
     width: 100%;
    }
+   footer{
+    background-image: url("footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 50vh;
+}
 }
 
 @media (min-width: 995px) and (max-width: 1024px) {
@@ -362,6 +376,15 @@ footer{
     .offer_img{
         height: 25vh;
         width: 100%;
+    }
+    footer{
+        background-image: url("footer.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 100%;
+        height: 50vh;
     }
 }
   
@@ -415,6 +438,15 @@ footer{
         grid-template-columns: 1fr 1fr;
         
     }
+    footer{
+        background-image: url("footer.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 100%;
+        height: 50vh;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -426,7 +458,8 @@ footer{
     
     section#Home{
         background-image: url("background.png");
-        height:600px;
+        height:650px;
+        width: 100%;
         
     }
     .home_card{
@@ -438,9 +471,6 @@ footer{
     .Home_heading h1{
         font-size: 45px;
         margin-bottom: 34px;
-    }
-    section#Home{
-        height: 650px;
     }
     .ach_card{
         justify-content: center;
@@ -461,6 +491,7 @@ footer{
     }
     #Client_comments{
         height: 560px;
+        width: 100%;
     }
     .Client_commentBox .card{
         margin: auto;
@@ -500,6 +531,7 @@ footer{
     }
     footer{
         height: 60vh;
+        width: 100%;
     }
     .card_comment{
         box-sizing: border-box;
@@ -520,7 +552,7 @@ footer{
     section#Home{
         background-image: url("background.png");
         height: 650px;
-        
+        width: 100%;
     }
     .home_card{
         display: none;
@@ -575,7 +607,9 @@ footer{
         display: inline;
     }
     footer{
-        height: 60vh;
+        height: 80vh;
+        width: 100%;
+        
     }
     .card_comment{
         box-sizing: border-box;
